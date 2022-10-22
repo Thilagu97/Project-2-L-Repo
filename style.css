@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#name {
+    float: right !important;
+    justify-content: space-evenly !important;
+}
+
+.paragraph {
+    text-align: center justify;
+}
+
+.image-2 img {
+    margin-top: px !important;
+
+}
+
+.content-1 {
+
+    padding: 20px;
+    background-color: #428bca;
+}
+
+.content {
+    display: none;
+}
+
+.content-2 {
+    background-color: aquamarine;
+}
+
+.content-3 {
+    background-color: blueviolet;
+
+}
+
+.content-3 p {
+    color: white;
+}
+
+
+
+.content-4 {
+    background-color: cadetblue;
+    margin-top: 2px;
+}
+
+.heading {
+    height: 75px;
+    padding: 10px;
+}
+
+.heading-1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.col-md-4.project-row {
+    margin-bottom: 50px;
+}
+
+@media (max-width:990px) {
+    .pic {
+        flex-direction: column-reverse !important;
+    }
+}
